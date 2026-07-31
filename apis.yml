@@ -1,8 +1,24 @@
 aid: mythic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mythic.png
 name: Mythic
-description: Mythic is a company surfaced as a portfolio company of dcvc, threshold-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Mythic is a high-performance analog computing company building Analog Processing
+  Units (APUs) for energy-efficient AI inference. Its compute-in-memory architecture stores
+  AI model parameters directly in the processor to eliminate the memory bottleneck of
+  traditional digital designs, targeting data center, automotive, robotics, edge, and
+  defense workloads with claims of dramatically lower energy use and cost versus GPUs.
+  Surfaced as a portfolio company of DCVC and Threshold Ventures. As of this enrichment
+  pass Mythic publishes no public developer API, SDK, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/mythic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- AI Hardware
+- Semiconductors
+- Analog Computing
+- Compute-in-Memory
+- Edge AI
+- AI Inference
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,16 @@ maintainers:
 common:
 - type: Website
   url: https://mythic.ai/
+- type: Products
+  url: https://mythic.ai/product/
+- type: About
+  url: https://mythic.ai/company/
+- type: Blog
+  url: https://mythic.ai/whats-new/
+- type: DomainSecurity
+  url: security/mythic-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
